@@ -1,0 +1,34 @@
+{
+	"name": "akashi",
+	"version": "0.1.0",
+	"description": "Tautulli (formerly PlexPy) script -> Discord webhook",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "iCrawl <icrawltogo@gmail.com>",
+	"license": "UNLICENSED",
+	"private": true,
+	"dependencies": {
+		"@polka/send-type": "^0.4.0",
+		"body-parser": "^1.18.3",
+		"compression": "^1.7.2",
+		"cors": "^2.8.4",
+		"dotenv": "^6.0.0",
+		"helmet": "^3.12.1",
+		"node-fetch": "^2.1.2",
+		"polka": "^0.4.0",
+		"winston": "^3.0.0-rc6"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"eslint-config-aqua": "^4.3.0",
+		"jest": "^23.1.0"
+	},
+	"eslintConfig": {
+		"extends": "aqua/node",
+		"env": {
+			"jest": true
+		}
+	}
+}
