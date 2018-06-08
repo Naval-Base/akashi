@@ -1,4 +1,4 @@
-# Akashi <img src="https://i.imgur.com/K3WFSeg.png" align="right">
+# Akashi <img src="https://i.imgur.com/fl7Tu03.png" align="right">
 > Tautulli (formerly PlexPy) script -> Discord webhook
 
 Standard Tautulli Discord webhooks can look like this if semi-properly configured:
