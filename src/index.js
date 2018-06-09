@@ -5,7 +5,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const compression = require('compression');
-const fetch = require('node-fetch');
+const fetch = require('@spectacles/rest')('', { tokenType: '' });
 const logger = require('./logger');
 
 const server = polka()
@@ -39,11 +39,7 @@ const server = polka()
 
 		if (process.env.NODE_ENV !== 'test') {
 			try {
-				await fetch(process.env.DISCORD_WEBHOOK, {
-					method: 'POST',
-					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify(embed)
-				});
+				await fetch.post(process.env.DISCORD_WEBHOOK, embed);
 			} catch (error) {
 				logger.error(error);
 			}

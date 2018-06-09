@@ -11,12 +11,12 @@
 	"private": true,
 	"dependencies": {
 		"@polka/send-type": "^0.4.0",
+		"@spectacles/rest": "^0.5.0",
 		"body-parser": "^1.18.3",
 		"compression": "^1.7.2",
 		"cors": "^2.8.4",
 		"dotenv": "^6.0.0",
 		"helmet": "^3.12.1",
-		"node-fetch": "^2.1.2",
 		"polka": "^0.4.0",
 		"winston": "^3.0.0-rc6"
 	},
