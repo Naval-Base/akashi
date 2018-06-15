@@ -17,25 +17,13 @@ const server = polka()
 	.use(bodyParser.json())
 	.use(bodyParser.urlencoded({ extended: false }))
 	.use(compression())
-	.use((req, res, next) => {
+	.use((_, res, next) => {
 		res.send = (code, data, headers) => send(res, code, data, headers);
 		next();
 	})
-	.get('/api', (req, res) => res.send(200, { message: 'Akashi!' }))
+	.get('/api', (_, res) => res.send(200, { message: 'Akashi!' }))
 	.post('/api/plex/recently_added', async (req, res) => {
-		const { body } = req;
-		const embed = {
-			embeds: [
-				{
-					title: body.showname,
-					color: 0x33cc33,
-					description: `${body.episode_name} (Episode: ${body.episode_num}) has been added to Plex!\n\nWatch here: [Plex Web](${body.plex_url})`,
-					thumbnail: {
-						url: body.poster_url
-					}
-				}
-			]
-		};
+		const embed = { embeds: [req.body] };
 
 		if (process.env.NODE_ENV !== 'test') {
 			try {
