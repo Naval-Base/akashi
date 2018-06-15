@@ -2,7 +2,7 @@
 
 accept="Accept:application/json"
 content_type="Content-Type:application/json"
-payload='{"showname":"'"$3"'", "episode_name":"'"$4"'", "episode_num":"'"$5"'", "poster_url":"'"$6"'", "plex_url":"'"$7"'"}'
 url="http://$1:$2/api/plex/recently_added"
+payload='{"title": "'"$3"'", "color": 3394611, "description": "'"$4"' (Episode: '"$5"') has been added to Plex!\n\nWatch here: [Plex Web]('"$7"')", "thumbnail": {"url":"'"$6"'"}}'
 
 curl -s --max-time 10 -H $accept -H $content_type -d "$payload" $url > /dev/null
