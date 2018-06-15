@@ -13,7 +13,7 @@ When running `Akashi` the output will look like this:
 The output generated will be a lot more controllable.
 
 For this to properly work it executes a shell script that posts data to `Akashi` which then gets forwarded to Discord via a webhook.  
-Currently it only has one endpoint which is `/api/plex/recently_added` since this is the only use-case I have for it at the moment. It also forces a specific webhook output which could be refactored so that the Discord Embed gets constructed inside of the shell script instead of the API.
+Currently it only has one endpoint which is `/api/plex/recently_added` since this is the only use-case I have for it at the moment. ~~It also forces a specific webhook output which could be refactored so that the Discord Embed gets constructed inside of the shell script instead of the API.~~
 
 ## Setup
 
@@ -41,7 +41,7 @@ And lastly in the `Arguments` tab the correct script arguments need to be passed
 
 ![](https://i.imgur.com/cuKrPRu.png)
 
-The order is as follows: `url port {showname} {episode_name} {episode_num} {poster_url} {plex_url}`  
+The order is as follows: `url port {show_name} {episode_name} {episode_num} {poster_url} {plex_url}`  
 This ensures a somewhat configurable host and port setup without having to hardcode it inside of the shell script.
 
 After all of this is done you are good to go and have updates to your recently added movies/series in Discord!
