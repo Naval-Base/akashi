@@ -21,7 +21,7 @@
 		"winston": "^3.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^4.19.1",
+		"eslint": "^5.0.1",
 		"eslint-config-aqua": "^4.3.0",
 		"jest": "^23.2.0",
 		"node-fetch": "^2.1.2"
