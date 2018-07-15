@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"eslint": "^5.1.0",
 		"eslint-config-aqua": "^4.3.0",
-		"jest": "^23.4.0",
+		"jest": "^23.4.1",
 		"node-fetch": "^2.1.2"
 	},
 	"eslintConfig": {
