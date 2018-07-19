@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:10-alpine
 
 LABEL name "akashi"
 LABEL version "0.1.0"
