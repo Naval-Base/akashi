@@ -24,6 +24,10 @@
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@polka/send-type/-/send-type-0.4.0.tgz#15c134afd5828358453770d58dab660019af0df3"
 
+"@polka/url@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
+
 "@spectacles/rest@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@spectacles/rest/-/rest-0.5.0.tgz#847b449a530853c3fc95d4725026ccda187b021a"
@@ -2837,10 +2841,6 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
 
-parseurl@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
-
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
@@ -2915,12 +2915,12 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
 
-polka@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/polka/-/polka-0.4.0.tgz#453fc513cd530a089dd55d8ff3daea9752f161df"
+polka@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/polka/-/polka-0.5.0.tgz#74407e17593d6d36185c91fe1267ed861236e9c6"
   dependencies:
-    parseurl "^1.3.2"
-    trouter "^1.1.0"
+    "@polka/url" "^0.5.0"
+    trouter "^2.0.1"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -3608,9 +3608,9 @@ triple-beam@^1.2.0, triple-beam@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/triple-beam/-/triple-beam-1.3.0.tgz#a595214c7298db8339eeeee083e4d10bd8cb8dd9"
 
-trouter@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/trouter/-/trouter-1.1.0.tgz#ce0ad2aaa4f13af21e34785079c3352298b9259a"
+trouter@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/trouter/-/trouter-2.0.1.tgz#2726a5f8558e090d24c3a393f09eaab1df232df6"
   dependencies:
     matchit "^1.0.0"
 
