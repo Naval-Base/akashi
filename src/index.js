@@ -36,8 +36,6 @@ const server = polka()
 		return res.send(200, embed);
 	});
 
-server
-	.listen(process.env.PORT)
-	.then(() => logger.info(`> Running on localhost:${process.env.PORT}`));
+server.listen(process.env.PORT, () => logger.info(`> Running on localhost:${process.env.PORT}`));
 
 module.exports = server;
