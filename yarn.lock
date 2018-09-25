@@ -2915,9 +2915,9 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
 
-polka@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/polka/-/polka-0.5.0.tgz#74407e17593d6d36185c91fe1267ed861236e9c6"
+polka@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/polka/-/polka-0.5.1.tgz#989a45b89a2ab9e3618f54b5720f37946a923891"
   dependencies:
     "@polka/url" "^0.5.0"
     trouter "^2.0.1"
