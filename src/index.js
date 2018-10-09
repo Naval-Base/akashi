@@ -24,6 +24,7 @@ const server = polka()
 	.get('/api', (_, res) => res.send(200, { message: 'Akashi!' }))
 	.post('/api/plex/recently_added', async (req, res) => {
 		const embed = { embeds: [req.body] };
+		logger.info(`Received request for ${req.body.title}`);
 
 		if (process.env.NODE_ENV !== 'test') {
 			try {
@@ -33,6 +34,7 @@ const server = polka()
 			}
 		}
 
+		logger.info(`Sent notification for ${req.body.title}`);
 		return res.send(200, embed);
 	});
 
