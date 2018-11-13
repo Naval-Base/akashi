@@ -24,7 +24,7 @@
 		"eslint": "^5.9.0",
 		"eslint-config-aqua": "^4.4.1",
 		"jest": "^23.6.0",
-		"node-fetch": "^2.2.1"
+		"node-fetch": "^2.3.0"
 	},
 	"eslintConfig": {
 		"extends": "aqua/node",
