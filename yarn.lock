@@ -136,10 +136,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@polka/send-type@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@polka/send-type/-/send-type-0.5.0.tgz#ced804fa06d9619ab3ea5c5093da193aea48fa9a"
-  integrity sha512-TCC0gbR5Cgx4lRHwd9JX3c9qq4EY+TujCYuy+7AvZpeugbLBirDNvq/jD3NZ+MPgHTnvZhbm9nuRTgse9UmNZA==
+"@polka/send-type@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@polka/send-type/-/send-type-0.5.2.tgz#65ed19522248e894eb9cfabe7ef0f166c10166a9"
+  integrity sha512-jGXalKihnhGQmMQ+xxfxrRfI2cWs38TIZuwgYpnbQDD4r9TkOiU3ocjAS+6CqqMNQNAu9Ul2iHU5YFRDODak2w==
 
 "@polka/url@^0.5.0":
   version "0.5.0"
