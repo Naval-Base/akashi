@@ -17,7 +17,7 @@
 		"cors": "^2.8.5",
 		"dotenv": "^6.2.0",
 		"helmet": "^3.15.1",
-		"polka": "^0.5.1",
+		"polka": "^0.5.2",
 		"winston": "^3.2.1"
 	},
 	"devDependencies": {
