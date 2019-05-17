@@ -12,7 +12,7 @@ LABEL name "akashi"
 LABEL version "0.1.0"
 LABEL maintainer "iCrawl <icrawltogo@gmail.com>"
 WORKDIR /usr/src/akashi
-COPY --from=build /usr/src/yukikaze .
+COPY --from=build /usr/src/akashi .
 COPY . .
 EXPOSE 9901
 ENV NODE_ENV= \
