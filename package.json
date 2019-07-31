@@ -11,7 +11,7 @@
 	"private": true,
 	"dependencies": {
 		"@polka/send-type": "^0.5.2",
-		"@spectacles/rest": "^0.5.0",
+		"@spectacles/rest": "^0.5.2",
 		"body-parser": "^1.19.0",
 		"compression": "^1.7.4",
 		"cors": "^2.8.5",
