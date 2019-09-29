@@ -5,8 +5,9 @@ const cors = require('cors');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const compression = require('compression');
-const fetch = require('@spectacles/rest')('', { tokenType: '' });
+const { Rest } = require('@spectacles/rest');
 const logger = require('./logger');
+const fetch = new Rest('', { tokenType: '' });
 
 const server = polka()
 	.use(cors({
