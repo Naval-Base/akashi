@@ -16,7 +16,7 @@
 		"compression": "^1.7.4",
 		"cors": "^2.8.5",
 		"dotenv": "^14.1.0",
-		"helmet": "^4.0.0",
+		"helmet": "^5.0.2",
 		"polka": "^0.5.2",
 		"winston": "^3.2.1"
 	},
